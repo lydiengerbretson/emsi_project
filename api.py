@@ -71,7 +71,6 @@ while(working_url):
       # Calls get_output function which outputs the city's information
       get_output(info)
    elif "POST" in info:
-      print "POST"
 	  # Calls post_output function which further prompts the user to input a dictionary of ranks
       post_output(info)
    elif "exit" in info:
