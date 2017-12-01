@@ -19,6 +19,9 @@ I tried to set up parameters for the GET call, but from my research, I would nee
 This is the code I would've used for GET /city/cityID if I requested this information from the server every GET call.
 
 ID_POS = 10
+
 id_num = raw_input()
+
 PARAMS = {'id': int(id_num[ID_POS])}
+
 response = requests.get(url=URL, params=PARAMS)
